@@ -33,8 +33,11 @@ How to use it?
 Here an example experiment is given by using Indian Pine data. Directly run .py functions with different networks to reproduce the results on the Indian Pine data, which exists in the aforementioned paper. Please note that we fixed the randomness of the parameter initialization to reproduce the unchanged results.
 
 If you want to run the code in your own data, you have to 
+
 first of all, use the matlab functions in the folder of DataGenerate_Funciton to prepare the network input data;
+
 next, change the save route or directly copy the generated data into the folder of HSI_CNN or HSI_GCN;
+
 finally, run the .py networks.
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
