@@ -1,4 +1,4 @@
 
 This is a matlab toolbox for preparing the data for the network input.
 PS: please update and replace the route with your own one when running these functions in your PC. 
-More specifically, the generated data should be accordingly put into the the folders of HSI_CNN or HSI_GCN.
+More specifically, the generated data should be accordingly put into the folder of HSI_CNN or HSI_GCN.
