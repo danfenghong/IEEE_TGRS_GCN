@@ -6,7 +6,7 @@
 The code in this toolbox implements the ["Graph Convolutional Networks for Hyperspectral Image Classification"](https://ieeexplore.ieee.org/document/9120344).
 More specifically, it is detailed as follow.
 
-![alt text](./Motivations.png)
+![alt text](./Motivation_GCN.png)
 
 Citation
 ---------------------
