@@ -2,7 +2,6 @@ clc;
 clear;
 close all;
 
-addpath('EnviFunction');
 I = double(imread('19920612_AVIRIS_IndianPine_Site3.tif'));
 I = I(:,:,[1:103, 109:149,164:219]);
 [m, n, z] = size(I);
