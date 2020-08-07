@@ -45,10 +45,8 @@ FuNet-C: fusion networks with concatenation fusion
 
 If you want to run the code in your own data, you have to 
 
-first of all, use the matlab functions in the folder of DataGenerate_Funciton to prepare the network input data;
-
-next, change the save route or directly copy the generated data into the folder of HSI_CNN or HSI_GCN;
-
+first of all, use the matlab functions in the folder of DataGenerate_Funciton to prepare the network input data;  
+next, change the save route or directly copy the generated data into the folder of HSI_CNN or HSI_GCN;  
 finally, run the .py networks.
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
