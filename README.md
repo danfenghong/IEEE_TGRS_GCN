@@ -32,6 +32,12 @@ How to use it?
 
 Here an example experiment is given by using Indian Pine data. Directly run .py functions with different networks to reproduce the results on the Indian Pine data, which exists in the aforementioned paper. Please note that we fixed the randomness of the parameter initialization to reproduce the unchanged results.
 
+This toolbox consists of seven hyperspectral classification networks as follows
+
+1DCNN: one-dimensional convolutional neural network <\br>
+2DCNN: two-dimensional convolutional neural network
+
+
 If you want to run the code in your own data, you have to 
 
 first of all, use the matlab functions in the folder of DataGenerate_Funciton to prepare the network input data;
