@@ -34,7 +34,7 @@ Here an example experiment is given by using Indian Pine data. Directly run .py 
 
 This toolbox consists of seven hyperspectral classification networks as follows
 
-1DCNN: one-dimensional convolutional neural network <\br>
+1DCNN: one-dimensional convolutional neural network;
 2DCNN: two-dimensional convolutional neural network
 
 
