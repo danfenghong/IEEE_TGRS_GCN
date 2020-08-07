@@ -32,11 +32,16 @@ How to use it?
 
 Here an example experiment is given by using Indian Pine data. Directly run .py functions with different networks to reproduce the results on the Indian Pine data, which exists in the aforementioned paper. Please note that we fixed the randomness of the parameter initialization to reproduce the unchanged results.
 
-This toolbox consists of seven hyperspectral classification networks as follows
+This toolbox consists of eight hyperspectral classification networks as follows
 
-1DCNN: one-dimensional convolutional neural network;
-2DCNN: two-dimensional convolutional neural network
-
+1DCNN: one-dimensional convolutional neural network  
+2DCNN: two-dimensional convolutional neural network  
+3DCNN：three-dimensional convolutional neural network, which can be found from the paper (Deep Feature Extraction and Classification of Hyperspectral Images Based on Convolutional Neural Networks, Chen et al., TGRS 2016)  
+GCN: graph convolutional network  
+miniGCN: mini-batch GCN  
+FuNet-A: fusion networks with additive fusion  
+FuNet-M: fusion networks with element-wise multiplicative fusion  
+FuNet-C: fusion networks with concatenation fusion  
 
 If you want to run the code in your own data, you have to 
 
