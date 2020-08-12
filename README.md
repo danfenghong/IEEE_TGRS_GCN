@@ -51,6 +51,7 @@ finally, run the .py networks.
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
 
+:exclamation: You may need to manually download `X_test.mat` located under `IEEE_TGRS_GCN/HSI_CNN/` due to the large file restrction.
 
 Licensing
 ---------
