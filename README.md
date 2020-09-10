@@ -13,6 +13,8 @@ Citation
 
 **Please kindly cite the papers if this code is useful and helpful for your research.**
 
+Danfeng Hong, Lianru Gao, Jing Yao, Bing Zhang, Antonio Plaza, Jocelyn Chanussot. Graph Convolutional Networks for Hyperspectral Image Classification [J], IEEE Transactions on Geoscience and Remote Sensing, 2020, DOI: 10.1109/TGRS.2020.3015157. 
+
      @article{hong2020graph,
       title     = {Graph Convolutional Networks for Hyperspectral Image Classification},
       author    = {D. Hong and L. Gao and J. Yao and B. Zhang and A. Plaza and J. Chanussot},
