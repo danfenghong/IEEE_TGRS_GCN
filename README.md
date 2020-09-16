@@ -53,7 +53,7 @@ finally, run the .py networks.
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
 
-:exclamation: The variable in `X_test.mat` was converted to single-precision for efficient use of memory, which may cause slight admissible perturbation on actual results. Due to its large siz, you may need to manually download `X_test.mat` to your local in the folder under path `IEEE_TGRS_GCN/HSI_CNN/` by the given the links of google drive or baiduyun as follows
+:exclamation: The variable in `X_test.mat` was converted to single-precision for efficient use of memory, which may cause slight admissible perturbation on actual results. Due to its large size, you may need to manually download `X_test.mat` to your local in the folder under path `IEEE_TGRS_GCN/HSI_CNN/` by the given the links of google drive or baiduyun as follows
 
 Google drive: https://drive.google.com/file/d/1JonHPynVZWCQ9EvZA-oXiFEPU-giIaYt/view?usp=sharing
 
