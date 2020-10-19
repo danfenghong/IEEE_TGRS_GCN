@@ -51,6 +51,8 @@ first of all, use the matlab functions in the folder of DataGenerate_Funciton to
 next, change the save route or directly copy the generated data into the folder of HSI_CNN or HSI_GCN;  
 finally, run the .py networks.
 
+Moreover, we provide the fucntion of draw_ClassificaitonMap.m to draw the classification maps with the given colormap function, i.e., giveColorCM_HH.m.
+
 If you encounter the bugs while using this code, please do not hesitate to contact us.
 
 :exclamation: The variable in `X_test.mat` was converted to single-precision for efficient use of memory, which may cause slight admissible perturbation on actual results. Due to its large size, you may need to manually download `X_test.mat` to your local in the folder under path `IEEE_TGRS_GCN/HSI_CNN/` by the given the links of google drive or baiduyun as follows
