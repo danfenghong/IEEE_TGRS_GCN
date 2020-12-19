@@ -15,12 +15,6 @@ def convert_to_one_hot(Y, C):
     Y = np.eye(C)[Y.reshape(-1)].T
     return Y
 
-def sample_mask(idx, l):
-    """Create mask."""
-    mask = np.zeros(l)
-    mask[idx] = 1
-    return np.array(mask, dtype=np.bool)
-
 def create_placeholders(n_x, n_y):
 
     isTraining = tf.placeholder_with_default(True, shape=())
