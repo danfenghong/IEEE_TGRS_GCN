@@ -29,13 +29,13 @@ def initialize_parameters():
     x_w1 = tf.get_variable("x_w1", [1,1,200,128], initializer = tf.contrib.layers.xavier_initializer(seed = 1))
     x_b1 = tf.get_variable("x_b1", [128], initializer = tf.zeros_initializer())
     
-    x_w3 = tf.get_variable("x_w3", [1,1,128,16], initializer = tf.contrib.layers.xavier_initializer(seed = 1))
-    x_b3 = tf.get_variable("x_b3", [16], initializer = tf.zeros_initializer())
+    x_w2 = tf.get_variable("x_w2", [1,1,128,16], initializer = tf.contrib.layers.xavier_initializer(seed = 1))
+    x_b2 = tf.get_variable("x_b2", [16], initializer = tf.zeros_initializer())
     
     parameters = {"x_w1": x_w1,
                   "x_b1": x_b1,
-                  "x_w3": x_w3,
-                  "x_b3": x_b3}
+                  "x_w2": x_w2,
+                  "x_b2": x_b2}
 
     return parameters
                   
@@ -51,13 +51,13 @@ def mynetwork(x, parameters, isTraining, momentums = 0.9):
          
     with tf.name_scope("x_layer_3"):
         
-         x_z3 = tf.nn.conv2d(x_a1, parameters['x_w3'], strides=[1, 1, 1, 1], padding='SAME') + parameters['x_b3'] 
+         x_z2 = tf.nn.conv2d(x_a1, parameters['x_w2'], strides=[1, 1, 1, 1], padding='SAME') + parameters['x_b2'] 
          
-         x_z3_shape = x_z3.get_shape().as_list()
-         x_z3_2d = tf.reshape(x_z3, [-1, x_z3_shape[1] * x_z3_shape[2] * x_z3_shape[3]])
+         x_z2_shape = x_z2.get_shape().as_list()
+         x_z2_2d = tf.reshape(x_z2, [-1, x_z2_shape[1] * x_z2_shape[2] * x_z2_shape[3]])
                     
          
-    l2_loss =   tf.nn.l2_loss(parameters['x_w1']) + tf.nn.l2_loss(parameters['x_w3'])
+    l2_loss =   tf.nn.l2_loss(parameters['x_w1']) + tf.nn.l2_loss(parameters['x_w2'])
                
     return x_z3_2d, l2_loss
 
