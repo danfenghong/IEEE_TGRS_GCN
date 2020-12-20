@@ -31,14 +31,14 @@ def initialize_parameters():
     x_w1 = tf.get_variable("x_w1", [200,128], initializer = tf.contrib.layers.xavier_initializer(seed = 1))
     x_b1 = tf.get_variable("x_b1", [128], initializer = tf.zeros_initializer())
 
-    x_w3 = tf.get_variable("x_w3", [128,16], initializer = tf.contrib.layers.xavier_initializer(seed = 1))
-    x_b3 = tf.get_variable("x_b3", [16], initializer = tf.zeros_initializer())    
+    x_w2 = tf.get_variable("x_w2", [128,16], initializer = tf.contrib.layers.xavier_initializer(seed = 1))
+    x_b2 = tf.get_variable("x_b2", [16], initializer = tf.zeros_initializer())    
 
     
     parameters = {"x_w1": x_w1,
                   "x_b1": x_b1,
-                  "x_w3": x_w3,
-                  "x_b3": x_b3}
+                  "x_w2": x_w2,
+                  "x_b2": x_b2}
                   
     return parameters
 
@@ -61,11 +61,11 @@ def mynetwork(x, parameters, Lap, isTraining, momentums = 0.9):
     with tf.name_scope("x_layer_3"):
         
          x_z2_bn = tf.layers.batch_normalization(x_a1, momentum = momentums, training = isTraining)        
-         x_z3 = GCN_layer(x_z2_bn, Lap, parameters['x_w3']) + parameters['x_b3']         
+         x_z2 = GCN_layer(x_z2_bn, Lap, parameters['x_w2']) + parameters['x_b2']         
 
-    l2_loss =  tf.nn.l2_loss(parameters['x_w1']) + tf.nn.l2_loss(parameters['x_w3'])
+    l2_loss =  tf.nn.l2_loss(parameters['x_w1']) + tf.nn.l2_loss(parameters['x_w2'])
                 
-    return x_z3, l2_loss
+    return x_z2, l2_loss
 
 def mynetwork_optimaization(y_est, y_re, l2_loss, reg, learning_rate, global_step):
     
