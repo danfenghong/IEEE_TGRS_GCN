@@ -61,6 +61,8 @@ Google drive: https://drive.google.com/file/d/1JonHPynVZWCQ9EvZA-oXiFEPU-giIaYt/
 
 Baiduyun: https://pan.baidu.com/s/1XRcKsckcYTqnD_zjOvWHoQ (access code: mrdf)
 
+We also provide the fixed training and testing images for Pavia University.
+
 Licensing
 ---------
 
