@@ -13,14 +13,16 @@ Citation
 
 **Please kindly cite the papers if this code is useful and helpful for your research.**
 
-D. Hong, L. Gao, J. Yao, B. Zhang, A. Plaza, J. Chanussot. Graph Convolutional Networks for Hyperspectral Image Classification, IEEE Trans. Geosci. Remote Sens., 2020, DOI: 10.1109/TGRS.2020.3015157. 
+D. Hong, L. Gao, J. Yao, B. Zhang, A. Plaza, J. Chanussot. Graph Convolutional Networks for Hyperspectral Image Classification, IEEE Trans. Geosci. Remote Sens., 2021, 59(7): 5966-5978. 
 
-     @article{hong2020graph,
+     @article{hong2021graph,
       title     = {Graph Convolutional Networks for Hyperspectral Image Classification},
       author    = {D. Hong and L. Gao and J. Yao and B. Zhang and A. Plaza and J. Chanussot},
       journal   = {IEEE Trans. Geosci. Remote Sens.}, 
-      year      = {2020},
-      note      = {DOI:10.1109/TGRS.2020.3015157}
+      volume    = {59},
+      number    = {7},
+      pages     = {5966--5978},
+      year      = {2021},
       publisher = {IEEE}
      }
 
