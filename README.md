@@ -63,7 +63,7 @@ Google drive: https://drive.google.com/file/d/1JonHPynVZWCQ9EvZA-oXiFEPU-giIaYt/
 
 Baiduyun: https://pan.baidu.com/s/1XRcKsckcYTqnD_zjOvWHoQ (access code: mrdf)
 
-We also provide the fixed training and testing images for Pavia University.
+We also provide the fixed training and testing images for Pavia University, i.e., TRpaviaU.mat and TEpaviaU.mat.
 
 :exclamation: When you use the large-scale data (e.g., testing samples) for generating the graph, if out-of-memory (just in case you do not have a super PC), you can split the testing samples into several groups and handle them separately.
 
