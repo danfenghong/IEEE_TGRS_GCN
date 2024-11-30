@@ -1,6 +1,6 @@
 # Graph Convolutional Networks for Hyperspectral Image Classification
 
-[Danfeng Hong](https://sites.google.com/view/danfeng-hong), [Lianru Gao](https://scholar.google.com/citations?user=f6OnhtcAAAAJ&hl=zh-CN), [Jing Yao](https://scholar.google.com/citations?user=1SHd5ygAAAAJ&hl=en), [Bing Zhang](http://english.radi.cas.cn/Education/PhDS/201401/t20140109_115415.html), [Antonio Plaza](https://www.umbc.edu/rssipl/people/aplaza/), [Jocelyn Chanussot](http://jocelyn-chanussot.net/)
+[Danfeng Hong](https://sites.google.com/view/danfeng-hong), Lianru Gao, Jing Yao, [Bing Zhang](http://english.radi.cas.cn/Education/PhDS/201401/t20140109_115415.html), [Antonio Plaza](https://www.umbc.edu/rssipl/people/aplaza/), [Jocelyn Chanussot](http://jocelyn-chanussot.net/)
 ---------------------
 
 The code in this toolbox implements the ["Graph Convolutional Networks for Hyperspectral Image Classification"](https://ieeexplore.ieee.org/document/9170817).
