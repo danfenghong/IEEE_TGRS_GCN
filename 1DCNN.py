@@ -59,7 +59,7 @@ def mynetwork(x, parameters, isTraining, momentums = 0.9):
          
     l2_loss =   tf.nn.l2_loss(parameters['x_w1']) + tf.nn.l2_loss(parameters['x_w2'])
                
-    return x_z3_2d, l2_loss
+    return x_z2_2d, l2_loss
 
 def mynetwork_optimaization(y_es, y_re, l2_loss, reg, learning_rate, global_step):
 
